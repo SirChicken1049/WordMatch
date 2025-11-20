@@ -26,6 +26,8 @@ public class Main {
         System.out.println(game.findBetterGuess("con", "cat"));
         System.out.println();
         System.out.println(read());
+
+        System.out.println("a".compareTo("b"));
     }
 
     public static int read() throws IOException {
